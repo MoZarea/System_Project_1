@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="CENTER" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.systems11.HelloController">
+    <Label text="Username"/>
+    <TextField fx:id="usernameField" promptText="Username"/>
+    <Label text="Password"/>
+    <PasswordField fx:id="passwordField" promptText="Password"/>
+    <Button fx:id="loginButton" text="Login" onAction="#onLoginButtonClick">
+        <graphic>
+            <ImageView fitHeight="15" fitWidth="15">
+                <Image url="@/com/example/systems11/121.jpg" /> <!-- Replace with your icon path -->
+            </ImageView>
+        </graphic>
+    </Button>
+</VBox>
